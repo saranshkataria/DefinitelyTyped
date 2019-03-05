@@ -1777,6 +1777,7 @@ declare namespace React {
         rel?: string;
         target?: string;
         type?: string;
+        referrerPolicy?: string;
     }
 
     // tslint:disable-next-line:no-empty-interface
