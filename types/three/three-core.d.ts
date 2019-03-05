@@ -3115,7 +3115,7 @@ export interface ShaderMaterialParameters extends MaterialParameters {
     uniforms?: any;
     vertexShader?: string;
     fragmentShader?: string;
-    linewidth?: number;
+    lineWidth?: number;
     wireframe?: boolean;
     wireframeLinewidth?: number;
     lights?: boolean;
@@ -5305,7 +5305,7 @@ export class LineSegments extends Line {
         material?: Material | Material[],
         mode?: number
     );
-    
+
     type: "LineSegments";
     isLineSegments: true;
 }
