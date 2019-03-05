@@ -1,4 +1,4 @@
-export const REVISION: string;
+﻿export const REVISION: string;
 
 // https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent.button
 export enum MOUSE { LEFT, MIDDLE, RIGHT }
@@ -3115,7 +3115,7 @@ export interface ShaderMaterialParameters extends MaterialParameters {
     uniforms?: any;
     vertexShader?: string;
     fragmentShader?: string;
-    linewidth?: number;
+    lineWidth?: number;
     wireframe?: boolean;
     wireframeLinewidth?: number;
     lights?: boolean;
